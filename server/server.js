@@ -5,7 +5,7 @@ import {
 
 import bodyParser from 'body-parser';
 
-import { schema } from './src/schema';
+import { schema } from './src/schema.js';
 
 import express from 'express';
 
