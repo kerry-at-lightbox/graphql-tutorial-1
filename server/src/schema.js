@@ -24,4 +24,5 @@ type Mutation {
 `;
 
 const schema = makeExecutableSchema({ typeDefs, resolvers });
+addMockFunctionsToSchema({ schema });
 export { schema };
