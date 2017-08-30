@@ -16,4 +16,5 @@ type Query {
 `;
 
 const schema = makeExecutableSchema({ typeDefs });
+addMockFunctionsToSchema({ schema });
 export { schema };
